@@ -12,6 +12,7 @@ rootProject.name = 'spring-security-samples'
 def projects = [
         ':docs',
         ':helloworld',
+        ':single',
         ':distribution',
 ]
 

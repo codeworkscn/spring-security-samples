@@ -10,16 +10,3 @@ allprojects {
     group 'cn.codeworks.spring-security-samples'
     version '1.0-SNAPSHOT'
 }
-
-configure(subprojects.findAll()) {
-
-    apply plugin: 'java'
-
-    sourceCompatibility = 1.8
-    targetCompatibility = 1.8
-
-    repositories {
-        mavenCentral()
-    }
-
-}
